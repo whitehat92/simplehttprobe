@@ -1,1 +1,1 @@
-usage: python3 simplehttpsprobe.py <url>
+usage: python3 simplehttpsprobe.py "<url>"

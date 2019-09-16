@@ -10,5 +10,4 @@ if not "https://" in url:
 pedido = requests.get(url, headers=headers)
 estado = pedido.status_code
 
-print(estado)
-print(url)
+print(estado, url)

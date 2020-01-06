@@ -1,6 +1,7 @@
 import requests
 import sys
 
+requests.urllib3.disable_warnings()
 headers = {'User-agent':'Mozilla//5.0',}
 
 url = sys.argv[1]
